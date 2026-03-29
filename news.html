@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 8A3 - Thông Báo</title>    <link rel="shortcut icon" type="image/png" href="./images/logo.png">    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/animation.css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ==================== LOADING SCREEN ==================== -->
+    <div class="loading-screen">
+        <div class="loading-container">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Đang tải</div>
+            <div class="loading-dots">.</div>
+            <div class="loading-progress">
+                <div class="loading-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">
+                <i class="fas fa-graduation-cap"></i> Class 8A3
+            </a>
+            
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="index.html">Trang chủ</a></li>
+                <li class="navbar-item"><a href="about.html">Giới thiệu</a></li>
+                <li class="navbar-item"><a href="members.html">Thành viên</a></li>
+                <li class="navbar-item"><a href="news.html">Thông báo</a></li>
+                <li class="navbar-item"><a href="gallery.html">Thư viện ảnh</a></li>
+                <li class="navbar-item"><a href="contact.html">Liên hệ</a></li>
+            </ul>
+
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== PAGE CONTENT ==================== -->
+    <section class="section page-content" style="margin-top: 100px;">
+        <h1 class="section-title animate-on-scroll fade-up" style="margin-top: 0;">
+            <i class="fas fa-bell"></i> Các Thông Báo Mới Nhất
+        </h1>
+
+        <p style="text-align: center; font-size: 1.1rem; color: #666; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+            Cập nhật các sự kiện, hoạt động và thông báo quan trọng của lớp 8A3.
+        </p>
+
+        <!-- News Grid -->
+        <div class="news-grid animate-on-scroll fade-up">
+            <!-- News Item 1 -->
+            <div class="news-card animate-on-scroll fade-up">
+                <div class="news-date">
+                    <i class="fas fa-calendar"></i> 29/03/2026
+                </div>
+                <h3 class="news-title">Kỳ Thi Giữa Kỳ Lớp 8</h3>
+                <p class="news-description">
+                    Kỳ thi giữa kỳ sắp tới vào tuần tới. Các em hãy chuẩn bị tốt các bài học và ôn tập thật kỹ 
+                    để đạt kết quả tốt nhất. Cô/Thầy sẽ hỗ trợ các em ôn tập.
+                </p>
+            </div>
+
+            <!-- News Item 2 -->
+            <div class="news-card animate-on-scroll fade-up animate-delay-1">
+                <div class="news-date">
+                    <i class="fas fa-calendar"></i> 28/03/2026
+                </div>
+                <h3 class="news-title">Hoạt Động Ngoài Trời</h3>
+                <p class="news-description">
+                    Lớp chúng ta sẽ tổ chức một buổi picnic và chơi các trò chơi nhóm vào cuối tuần này. 
+                    Hãy chuẩn bị địa điểm, thực phẩm và sơ đồ hoạt động.
+                </p>
+            </div>
+
+            <!-- News Item 3 -->
+            <div class="news-card animate-on-scroll fade-up animate-delay-2">
+                <div class="news-date">
+                    <i class="fas fa-calendar"></i> 27/03/2026
+                </div>
+                <h3 class="news-title">Khoá Tập Huấn Kỹ Năng</h3>
+                <p class="news-description">
+                    Trường sẽ tổ chức khóa tập huấn kỹ năng sống cho toàn khối 8. Đây là cơ hội tốt để 
+                    các em phát triển kỹ năng giao tiếp và làm việc nhóm.
+                </p>
+            </div>
+
+            <!-- News Item 4 -->
+            <div class="news-card animate-on-scroll fade-up animate-delay-3">
+                <div class="news-date">
+                    <i class="fas fa-calendar"></i> 25/03/2026
+                </div>
+                <h3 class="news-title">Buổi Họp Phụ Huynh</h3>
+                <p class="news-description">
+                    Trường sẽ tổ chức buổi họp phụ huynh để báo cáo kết quả học tập và hành vi của các em. 
+                    Mong anh chị em phụ huynh tham dự.
+                </p>
+            </div>
+
+            <!-- News Item 5 -->
+            <div class="news-card animate-on-scroll fade-up animate-delay-4">
+                <div class="news-date">
+                    <i class="fas fa-calendar"></i> 22/03/2026
+                </div>
+                <h3 class="news-title">Cuộc Thi Thể Thao Lớp</h3>
+                <p class="news-description">
+                    Lớp chúng ta sẽ tham dự cuộc thi thể thao liên lớp. Những cầu thủ xuất sắc sẽ được lựa chọn 
+                    để tham dự. Hãy rèn luyện sức khỏe từ bây giờ!
+                </p>
+            </div>
+
+            <!-- News Item 6 -->
+            <div class="news-card animate-on-scroll fade-up animate-delay-5">
+                <div class="news-date">
+                    <i class="fas fa-calendar"></i> 20/03/2026
+                </div>
+                <h3 class="news-title">Lịch Trực Nhật Lớp</h3>
+                <p class="news-description">
+                    Danh sách trực nhật lớp đã được công bố. Các em hãy kiểm tra lịch của mình và chuẩn bị 
+                    công cụ dọn dẹp. Trách nhiệm là nhất!
+                </p>
+            </div>
+
+            <!-- News Item 7 -->
+            <div class="news-card animate-on-scroll fade-up">
+                <div class="news-date">
+                    <i class="fas fa-calendar"></i> 18/03/2026
+                </div>
+                <h3 class="news-title">Chương Trình Tuyên Truyền An Toàn</h3>
+                <p class="news-description">
+                    Nhà trường sẽ tổ chức chương trình tuyên truyền về an toàn giao thông và phòng chống tai nạn. 
+                    Đây là kiến thức quan trọng cho mỗi em học sinh.
+                </p>
+            </div>
+
+            <!-- News Item 8 -->
+            <div class="news-card animate-on-scroll fade-up animate-delay-1">
+                <div class="news-date">
+                    <i class="fas fa-calendar"></i> 15/03/2026
+                </div>
+                <h3 class="news-title">Ngày Hội Khoa Học</h3>
+                <p class="news-description">
+                    Trường tổ chức Ngày Hội Khoa Học với các dự án và thí nghiệm khoa học. Các em có thể 
+                    tham gia đăng ký dự án của riêng mình để trưng bày.
+                </p>
+            </div>
+
+            <!-- News Item 9 -->
+            <div class="news-card animate-on-scroll fade-up animate-delay-2">
+                <div class="news-date">
+                    <i class="fas fa-calendar"></i> 10/03/2026
+                </div>
+                <h3 class="news-title">Kỳ Thi Lên Lớp Đạt Tiêu Chuẩn</h3>
+                <p class="news-description">
+                    Kỳ thi lên lớp đạt tiêu chuẩn sẽ diễn ra trong tuần tới. Đây là kỳ thi quan trọng, 
+                    các em cần chuẩn bị kỹ lưỡng.
+                </p>
+            </div>
+        </div>
+
+        <!-- Upcoming Events -->
+        <div style="margin-top: 4rem; background: linear-gradient(135deg, #f8f9fa, #ffffff); padding: 2rem; border-radius: 15px; box-shadow: var(--shadow-sm);">
+            <h2 class="section-title animate-on-scroll fade-up">
+                <i class="fas fa-calendar-check"></i> Sự Kiện Sắp Tới
+            </h2>
+
+            <div style="margin-top: 2rem;">
+                <div class="about-content animate-on-scroll fade-up" style="border-left: 4px solid #0d6efd; margin-bottom: 1.5rem;">
+                    <h3 style="color: #0d6efd; margin-bottom: 0.5rem;">
+                        <i class="fas fa-flag"></i> Tháng 4: Lễ Khởi Hành Mùa Hè
+                    </h3>
+                    <p style="color: #666; margin-bottom: 0.5rem;">
+                        Ngày dự kiến: 10/04/2026
+                    </p>
+                    <p style="color: #666;">
+                        Buổi lễ này sẽ công bố kế hoạch hoạt động của lớp trong mùa hè và phát động các cuộc thi.
+                    </p>
+                </div>
+
+                <div class="about-content animate-on-scroll fade-up animate-delay-1" style="border-left: 4px solid #0d6efd; margin-bottom: 1.5rem;">
+                    <h3 style="color: #0d6efd; margin-bottom: 0.5rem;">
+                        <i class="fas fa-flag"></i> Tháng 5: Trại Hè Lớp
+                    </h3>
+                    <p style="color: #666; margin-bottom: 0.5rem;">
+                        Ngày dự kiến: 25/05/2026 - 27/05/2026
+                    </p>
+                    <p style="color: #666;">
+                        Trại hè là cơ hội tuyệt vời để tăng cường đoàn kết và tạo những kỷ niệm đẹp.
+                    </p>
+                </div>
+
+                <div class="about-content animate-on-scroll fade-up animate-delay-2" style="border-left: 4px solid #0d6efd;">
+                    <h3 style="color: #0d6efd; margin-bottom: 0.5rem;">
+                        <i class="fas fa-flag"></i> Tháng 6: Buổi Chia Tay Năm Học
+                    </h3>
+                    <p style="color: #666; margin-bottom: 0.5rem;">
+                        Ngày dự kiến: 15/06/2026
+                    </p>
+                    <p style="color: #666;">
+                        Buổi chia tay năm học để cùng nhau nhìn lại những kỷ niệm và kỳ vọng cho năm học mới.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <p>&copy; 2026 Class 8A3 - All Rights Reserved.</p>
+        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Được tạo với ❤️ cho gia đình lớp học</p>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+</body>
+</html>

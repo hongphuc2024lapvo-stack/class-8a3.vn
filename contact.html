@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 8A3 - Liên Hệ</title>
+    <link rel="shortcut icon" type="image/png" href="./images/logo.png">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/animation.css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ==================== LOADING SCREEN ==================== -->
+    <div class="loading-screen">
+        <div class="loading-container">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Đang tải</div>
+            <div class="loading-dots">.</div>
+            <div class="loading-progress">
+                <div class="loading-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">
+                <i class="fas fa-graduation-cap"></i> Class 8A3
+            </a>
+            
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="index.html">Trang chủ</a></li>
+                <li class="navbar-item"><a href="about.html">Giới thiệu</a></li>
+                <li class="navbar-item"><a href="members.html">Thành viên</a></li>
+                <li class="navbar-item"><a href="404.html">Thông báo</a></li>
+                <li class="navbar-item"><a href="gallery.html">Thư viện ảnh</a></li>
+                <li class="navbar-item"><a href="contact.html">Liên hệ</a></li>
+            </ul>
+
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== PAGE CONTENT ==================== -->
+    <section class="section page-content" style="margin-top: 100px;">
+        <h1 class="section-title animate-on-scroll fade-up" style="margin-top: 0;">
+            <i class="fas fa-envelope"></i> Liên Hệ Với Chúng Tôi
+        </h1>
+
+        <p style="text-align: center; font-size: 1.1rem; color: #666; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+            Hãy để lại tin nhắn của bạn và chúng tôi sẽ phản hồi sớm nhất có thể. 
+            Chúng tôi rất vui được lắng nghe từ bạn!
+        </p>
+
+        <!-- Contact Form & Info -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; margin-top: 3rem;">
+            <!-- Contact Form -->
+            <div class="animate-on-scroll fade-up">
+                <div class="contact-form">
+                    <h2 style="color: #0d6efd; margin-bottom: 2rem; text-align: center;">
+                        Mẫu Liên Hệ
+                    </h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i> Họ Tên <span style="color: #dc3545;">*</span>
+                            </label>
+                            <input type="text" id="name" name="name" placeholder="Nhập tên của bạn" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="fas fa-envelope"></i> Email <span style="color: #dc3545;">*</span>
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">
+                                <i class="fas fa-heading"></i> Tiêu Đề
+                            </label>
+                            <input type="text" id="subject" name="subject" placeholder="Tiêu đề tin nhắn">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i> Nội Dung <span style="color: #dc3545;">*</span>
+                            </label>
+                            <textarea id="message" name="message" placeholder="Viết tin nhắn của bạn tại đây..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Gửi Tin Nhắn
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="animate-on-scroll fade-up animate-delay-1">
+                <h2 style="color: #0d6efd; margin-bottom: 2rem; text-align: center;">
+                    Thông Tin Liên Hệ
+                </h2>
+
+
+                <!-- Contact Card 3 -->
+                <div class="about-content">
+                    <h3 style="color: #0d6efd; margin-bottom: 0.5rem;">
+                        <i class="fas fa-map-marker-alt"></i> Địa Chỉ Lớp Học
+                    </h3>
+                    <p style="color: #666; margin-bottom: 0.5rem;">
+                        <strong>Trường THCS Lấp Vò</strong>
+                    </p>
+                    <p style="color: #999; line-height: 1.8;">
+                        Lớp 8A3<br>
+                        Lấp VÒ<br>
+                        Đồng Tháp, Việt Nam
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Media / Additional Info -->
+        <div style="margin-top: 4rem; background: linear-gradient(135deg, #f8f9fa, #ffffff); padding: 2rem; border-radius: 15px; box-shadow: var(--shadow-sm);">
+            <h2 class="section-title animate-on-scroll fade-up">
+                <i class="fas fa-share-alt"></i> Những Cách Khác Để Liên Hệ
+            </h2>
+
+            <div class="features-grid" style="margin-top: 2rem;">
+                <div class="feature-card animate-on-scroll fade-up">
+                    <span class="feature-icon">📱</span>
+                    <h3>TikTok</h3>
+                    <p>Dm Tiktok để có thể giái quyết thất mắt.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div style="margin-top: 3rem;">
+            <h2 class="section-title animate-on-scroll fade-up">
+                <i class="fas fa-question-circle"></i> Câu Hỏi Thường Gặp
+            </h2>
+
+            <div style="max-width: 800px; margin: 0 auto; margin-top: 2rem;">
+                <div class="about-content animate-on-scroll fade-up" style="margin-bottom: 1.5rem; cursor: pointer;">
+                    <h3 style="color: #0d6efd; margin-bottom: 0.5rem;">
+                        <i class="fas fa-question"></i> Làm sao để tham gia nhóm Zalo của lớp?
+                    </h3>
+                    <p style="color: #666; display: none;" id="answer1">
+                        Bạn có thể yêu cầu lớp trưởng hoặc bất kỳ thành viên nào trong nhóm để mời bạn vào. 
+                        Hoặc bạn có thể liên hệ trực tiếp qua mẫu liên hệ để chúng tôi hỗ trợ.
+                    </p>
+                </div>
+
+                <div class="about-content animate-on-scroll fade-up animate-delay-1" style="margin-bottom: 1.5rem; cursor: pointer;">
+                    <h3 style="color: #0d6efd; margin-bottom: 0.5rem;">
+                        <i class="fas fa-question"></i> Có cách nào để tham gia các hoạt động lớp ngoài giờ học?
+                    </h3>
+                    <p style="color: #666; display: none;" id="answer2">
+                        Có, chúng tôi thường xuyên tổ chức các hoạt động ngoài giờ học như picnic, trại hè, 
+                        và các sự kiện đặc biệt. Hãy theo dõi trang thông báo của chúng tôi để cập nhật.
+                    </p>
+                </div>
+
+                <div class="about-content animate-on-scroll fade-up animate-delay-2" style="margin-bottom: 1.5rem; cursor: pointer;">
+                    <h3 style="color: #0d6efd; margin-bottom: 0.5rem;">
+                        <i class="fas fa-question"></i> Tôi có thể chia sẻ ảnh của mình lên website được không?
+                    </h3>
+                    <p style="color: #666; display: none;" id="answer3">
+                        Tất nhiên rồi! Chúng tôi rất vui được nhận ảnh của bạn. Hãy liên hệ với cô giáo chủ nhiệm 
+                        hoặc lớp trưởng để chia sẻ những khoảnh khắc đẹp của lớp.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-envelope"></i> Liên Hệ</h3>
+                    <p>Chúng tôi rất vui được lắng nghe từ bạn</p>
+                </div>
+                <div class="footer-section">
+                    <h3><i class="fas fa-phone"></i> Thông Tin</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-at"></i> hongphuc2024lapvo@gmail.com</a></li>
+                        <li><a href="#"><i class="fas fa-phone"></i>(+84) 033.757.4544</a></li>
+                        <li><a href="#"><i class="fas fa-location-dot"></i> Đồng Tháp, Việt Nam</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3><i class="fas fa-star"></i> Hỗ Trợ</h3>
+                    <p>Đội ngõ hỗ trợ sẽ không đảm bảo hỗ trọ 24/7 vì vấn đề thời gian. xin thông cảm.</p>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 <strong>Class 8A3</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script>
+        // FAQ Toggle
+        document.querySelectorAll('.about-content').forEach((item, index) => {
+            if (index >= 17) { // Select only FAQ items
+                item.addEventListener('click', function() {
+                    const answerId = 'answer' + (index - 16);
+                    const answer = document.getElementById(answerId);
+                    if (answer) {
+                        answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+                        this.style.background = answer.style.display === 'none' ? 
+                            'linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%)' : 
+                            'linear-gradient(135deg, #ffffff 0%, rgba(13, 110, 253, 0.05) 100%)';
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
